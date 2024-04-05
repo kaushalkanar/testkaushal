@@ -1,7 +1,7 @@
 #include <iostream>
 
 // Function to add two numbers
-int add(int a, int b) {
+int addition(int a, int b) {
     return a + b;
 }
 
@@ -15,7 +15,7 @@ int main() {
     int num2 = 7;
     
     // Calling the add function
-    int sum = add(num1, num2);
+    int sum = addition(num1, num2);
     
     // Calling the multiply function
     int product = multiply(num1, num2);
